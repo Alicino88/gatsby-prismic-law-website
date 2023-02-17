@@ -16,11 +16,16 @@
   },
   "dependencies": {
     "gatsby": "^4.25.4",
+    "gatsby-omni-font-loader": "^2.0.2",
     "gatsby-plugin-image": "^2.25.0",
+    "gatsby-plugin-manifest": "^4.25.0",
     "gatsby-plugin-sharp": "^4.25.0",
+    "gatsby-source-filesystem": "^4.25.0",
+    "gatsby-source-prismic": "^5.2.10",
     "gatsby-transformer-sharp": "^4.25.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0"
   },
   "engines": {
     "node": "18.x"
