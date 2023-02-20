@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /*IMPORTANT: if you use smooth scroll behaviour scroll-behavior: smooth; then gatsby scroll restoration is enabled: when scrolling down to bottom of a page, 
+  if clicking on another page then you go to the bottom*/
+  :root {
+    scroll-behavior: auto !important;
+  }
+  html {
+    font-family: "Raleway";
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: "Merriweather";
+  }
+}
+
+:root {
+  box-sizing: border-box;
+  margin: 0;
+}
