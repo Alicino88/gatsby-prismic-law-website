@@ -1,6 +1,6 @@
-import * as React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import * as React from "react";
+import { useStaticQuery, graphql } from "gatsby";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 const TheLawyers = () => {
   const data = useStaticQuery(graphql`
@@ -21,22 +21,22 @@ const TheLawyers = () => {
         }
       }
     }
-  `)
-  const avvocati = data.allPrismicGliAvvocati.nodes
-  console.log(avvocati)
+  `);
+  const avvocati = data.allPrismicGliAvvocati.nodes;
+  console.log(avvocati);
   return (
     <section className="max-w-screen-xl mx-auto">
       <div className="lg:flex py-16">
         <div className="px-3 md:pr-32 lg:pr-0 lg:w-1/3">
-          <h2 className="text-5xl text-blue-dark">La storia</h2>
+          <h2 className="text-3xl md:text-4xl text-blue-dark">La storia</h2>
           <p className="text-grey mt-5">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
         <div className="px-3 mt-16 lg:mt-0 lg:w-2/3">
-          {avvocati.map(avvocato => {
-            const pathToImage = getImage(avvocato.data.immagine_avvocato)
+          {avvocati.map((avvocato) => {
+            const pathToImage = getImage(avvocato.data.immagine_avvocato);
             return (
               <div>
                 <div className="md:flex lg:px-10 lg:pl-10">
@@ -58,12 +58,12 @@ const TheLawyers = () => {
                 </div>
                 <span className="block my-10 w-11/12 xl:mx-auto border-solid border-greyTransparent border-b-2"></span>
               </div>
-            )
+            );
           })}
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default TheLawyers
+export default TheLawyers;
