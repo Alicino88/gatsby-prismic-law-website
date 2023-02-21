@@ -1,10 +1,22 @@
-import * as React from "react"
+import * as React from "react";
+import { useInView } from "react-intersection-observer";
 
 const Banner = () => {
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+    rootMargin: "-100px 0px",
+  });
   return (
-    <section className="relative bg-[url('../images/sky_duomo.jpg')] bg-cover bg-center bg-no-repeat">
+    <section
+      className="relative bg-[url('../images/sky_duomo.jpg')] bg-cover bg-center bg-no-repeat"
+      ref={ref}
+    >
       <div class="absolute inset-0 bg-white/60 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/95 sm:to-white/25"></div>
-      <div class="text-center relative mx-auto max-w-screen-xl px-4 sm:px-20 py-32 lg:text-left border-solid border-gold border-l-8">
+      <div
+        class={`text-center relative mx-auto max-w-screen-xl px-4 sm:px-20 py-32 lg:text-left border-solid border-gold border-l-8 -translate-x-full transition-all duration-1000 ease-out ${
+          inView ? "translate-x-0" : ""
+        } `}
+      >
         <h1 className="text-grey text-3xl md:text-4xl">
           La filosofia dello studio
         </h1>
@@ -15,7 +27,7 @@ const Banner = () => {
         </p>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Banner
+export default Banner;
