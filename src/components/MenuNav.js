@@ -1,6 +1,7 @@
-import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+import * as React from "react";
+import { Link } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
+import Scrollspy from "react-scrollspy";
 
 const MenuNav = ({ toggle, isOpen }) => {
   return (
@@ -19,19 +20,21 @@ const MenuNav = ({ toggle, isOpen }) => {
         </Link>
 
         <ul className="font-semibold text-sm uppercase hidden md:inline-flex">
-          <Link to="/#lo-studio">
-            <li className="mr-8 cursor-pointer">Lo studio</li>
+          <Link to="/#lo-studio" className="mr-8 cursor-pointer">
+            <li>Lo studio</li>
           </Link>
-          <Link to="/#competenze">
-            <li className="mr-8 cursor-pointer">Competenze</li>
+
+          <Link to="/#competenze" className="mr-8 cursor-pointer">
+            <li>Competenze</li>
           </Link>
-          <Link to="/gli-avvocati">
-            <li className="mr-8 cursor-pointer">Gli avvocati</li>
+          <Link to="/gli-avvocati" className="mr-8 cursor-pointer">
+            <li>Gli avvocati</li>
           </Link>
-          <Link to="/contatti">
-            <li className="mr-8 cursor-pointer">Contatti</li>
+          <Link to="/contatti" className="mr-8 cursor-pointer">
+            <li>Contatti</li>
           </Link>
         </ul>
+
         {!isOpen && (
           <button onClick={toggle} className="md:hidden">
             <StaticImage
@@ -57,7 +60,7 @@ const MenuNav = ({ toggle, isOpen }) => {
         )}
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default MenuNav
+export default MenuNav;
