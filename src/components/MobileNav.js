@@ -1,5 +1,5 @@
-import * as React from "react"
-import { Link } from "gatsby"
+import * as React from "react";
+import { Link } from "gatsby";
 const MobileNav = ({ isOpen, toggle }) => {
   return (
     <div
@@ -9,19 +9,27 @@ const MobileNav = ({ isOpen, toggle }) => {
     `}
     >
       <Link to="/#lo-studio" onClick={toggle}>
-        <p className="mb-4">Lo studio</p>
+        <p className="mb-8 border-solid border-blue-medium border-l-4 pl-2">
+          Lo studio
+        </p>
       </Link>
       <Link to="/gli-avvocati" onClick={toggle}>
-        <p className="mb-4">Avvocati</p>
+        <p className="mb-8 border-solid border-blue-medium border-l-4 pl-2">
+          Avvocati
+        </p>
       </Link>
       <Link to="/#competenze" onClick={toggle}>
-        <p className="mb-4">Competenze</p>
+        <p className="mb-8 border-solid border-blue-medium border-l-4 pl-2">
+          Competenze
+        </p>
       </Link>
       <Link to="/contatti" onClick={toggle}>
-        <p className="mb-4">Contatti</p>
+        <p className="mb-8 border-solid border-blue-medium border-l-4 pl-2">
+          Contatti
+        </p>
       </Link>
     </div>
-  )
-}
+  );
+};
 
-export default MobileNav
+export default MobileNav;
