@@ -1,6 +1,6 @@
 import * as React from "react";
 import { useStaticQuery, graphql } from "gatsby";
-import Layout from "../components/layout.js";
+import Layout from "../components/Layout.js";
 import HeaderSec from "../components/HeaderSec.js";
 import TheLawyers from "../components/TheLawyers.js";
 import Seo from "../components/Seo.js";
