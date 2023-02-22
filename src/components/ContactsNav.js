@@ -1,9 +1,27 @@
-import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
+import * as React from "react";
+import { StaticImage } from "gatsby-plugin-image";
+import { useState, useEffect } from "react";
 
 const ContactsNav = () => {
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  useEffect(() => {
+    const updatePosition = () => {
+      setScrollPosition(window.pageYOffset);
+    };
+
+    window.addEventListener("scroll", updatePosition);
+
+    updatePosition();
+
+    return () => window.removeEventListener("scroll", updatePosition);
+  }, []);
   return (
-    <div className="bg-blue-dark relative z-40">
+    <div
+      className={`bg-blue-dark relative z-40 ${
+        scrollPosition > 200 ? "hidden" : ""
+      } `}
+    >
       <div className="sm:flex py-4 sm:pl-5 max-w-screen-xl mx-auto">
         <div className="flex justify-center sm:justify-start mb-3 sm:mb-0">
           <StaticImage
@@ -25,7 +43,7 @@ const ContactsNav = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ContactsNav
+export default ContactsNav;
