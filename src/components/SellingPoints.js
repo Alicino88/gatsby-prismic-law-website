@@ -1,7 +1,6 @@
 import * as React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
-import { useState } from "react";
 import { useInView } from "react-intersection-observer";
 
 const SellingPoints = () => {
