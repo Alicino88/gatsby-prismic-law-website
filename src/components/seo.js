@@ -5,43 +5,39 @@
  * See: https://www.gatsbyjs.com/docs/how-to/querying-data/use-static-query/
  */
 
-/*
-import * as React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import * as React from "react";
+import { useStaticQuery, graphql } from "gatsby";
 
 function Seo({ description, title, children }) {
-  const { site } = useStaticQuery(
+  const data = useStaticQuery(
     graphql`
       query {
         site {
           siteMetadata {
             title
             description
-            author
+            image
           }
         }
       }
     `
-  )
+  );
 
-  const metaDescription = description || site.siteMetadata.description
-  const defaultTitle = site.siteMetadata?.title
+  /*if there is a title being passed as a prop then that one is being used otherwise the default title from the query is set */
+  const metaTitle = title || data.site.siteMetadata.title;
+  const metaDescription = description || data.site.siteMetadata.description;
+  const pic = data.site.siteMetadata.image;
 
   return (
     <>
-      <title>{defaultTitle ? `${title} | ${defaultTitle}` : title}</title>
+      <title>{metaTitle}</title>
       <meta name="description" content={metaDescription} />
-      <meta property="og:title" content={title} />
       <meta property="og:description" content={metaDescription} />
+      <meta property="og:title" content={metaTitle} />
       <meta property="og:type" content="website" />
-      <meta name="twitter:card" content="summary" />
-      <meta name="twitter:creator" content={site.siteMetadata?.author || ``} />
-      <meta name="twitter:title" content={title} />
-      <meta name="twitter:description" content={metaDescription} />
-      {children}
+      <meta name="image" content={pic} />
     </>
-  )
+  );
 }
 
-export default Seo
-*/
+export default Seo;

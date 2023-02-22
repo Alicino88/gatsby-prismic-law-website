@@ -11,7 +11,9 @@ require("dotenv").config({
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Avvocato civilista Milano | Studio legale Cassani & Marchetti`,
+    description: `Example project for the Gatsby Head API`,
+    image: `/logo-white-bg.png`,
   },
   plugins: [
     `gatsby-plugin-image`,

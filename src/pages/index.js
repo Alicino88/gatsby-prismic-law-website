@@ -1,10 +1,11 @@
-import * as React from "react"
-import Layout from "../components/layout.js"
-import Header from "../components/Header.js"
-import LoStudio from "../components/LoStudio.js"
-import SellingPoints from "../components/SellingPoints.js"
-import Banner from "../components/Banner.js"
-import WorkFields from "../components/WorkFields.js"
+import * as React from "react";
+import Layout from "../components/layout.js";
+import Header from "../components/Header.js";
+import LoStudio from "../components/LoStudio.js";
+import SellingPoints from "../components/SellingPoints.js";
+import Banner from "../components/Banner.js";
+import WorkFields from "../components/WorkFields.js";
+import SEO from "../components/Seo.js";
 
 const IndexPage = () => (
   <>
@@ -24,6 +25,8 @@ const IndexPage = () => (
       <WorkFields />
     </Layout>
   </>
-)
+);
 
-export default IndexPage
+export default IndexPage;
+
+export const Head = () => <SEO />;

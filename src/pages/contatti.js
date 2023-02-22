@@ -3,6 +3,7 @@ import { useStaticQuery, graphql } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 import Layout from "../components/layout.js";
 import HeaderSec from "../components/HeaderSec.js";
+import Seo from "../components/Seo.js";
 
 const LoStudio = () => {
   const data = useStaticQuery(graphql`
@@ -142,3 +143,7 @@ const LoStudio = () => {
 };
 
 export default LoStudio;
+
+export const Head = () => (
+  <Seo title="Contatti | Studio legale Cassani & Marchetti" />
+);
