@@ -14,7 +14,7 @@ module.exports = {
     title: `Avvocato civilista Milano | Studio legale Cassani & Marchetti`,
     description: `Example project for the Gatsby Head API`,
     image: `/logo-white-bg.png`,
-    siteUrl: `www.testurl.com`,
+    siteUrl: `https://www.alicemoretti.com/`,
   },
   plugins: [
     `gatsby-plugin-image`,
