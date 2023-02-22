@@ -17,6 +17,7 @@ function Seo({ description, title, children }) {
             title
             description
             image
+            siteUrl
           }
         }
       }
@@ -27,6 +28,7 @@ function Seo({ description, title, children }) {
   const metaTitle = title || data.site.siteMetadata.title;
   const metaDescription = description || data.site.siteMetadata.description;
   const pic = data.site.siteMetadata.image;
+  const url = data.site.siteMetadata.siteUrl;
 
   return (
     <>
@@ -34,6 +36,7 @@ function Seo({ description, title, children }) {
       <meta name="description" content={metaDescription} />
       <meta property="og:description" content={metaDescription} />
       <meta property="og:title" content={metaTitle} />
+      <meta property="og:url" content={url} />
       <meta property="og:type" content="website" />
       <meta name="image" content={pic} />
     </>
