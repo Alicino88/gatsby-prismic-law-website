@@ -23,6 +23,7 @@ const LoStudio = () => {
         descrizione="I nostri uffici"
         titolo="Contatti e recapiti"
         image={pic}
+        alt=""
       />
       <section>
         <div className="px-3 max-w-screen-xl mx-auto">
@@ -49,6 +50,7 @@ const LoStudio = () => {
             placeholder="blurred"
             layout="constrained"
             className="h-full w-full"
+            alt=""
           />
           <div class="absolute inset-0 bg-white/60 bg-transparent bg-gradient-to-r from-white/95 to-white/25"></div>
           <div className="text-blue-dark py-16 px-3 absolute inset-0 max-w-screen-xl mx-auto">
@@ -67,6 +69,7 @@ const LoStudio = () => {
                     placeholder="blurred"
                     layout="constrained"
                     className="mr-3"
+                    alt=""
                   />
                   <p className="text-sm">Viale Monte Rosa 16, 20149 - MILANO</p>
                 </div>
@@ -77,6 +80,7 @@ const LoStudio = () => {
                     placeholder="blurred"
                     layout="constrained"
                     className="mr-3"
+                    alt=""
                   />
                   <p className="text-sm">02.99043745</p>
                 </div>
@@ -87,6 +91,7 @@ const LoStudio = () => {
                     placeholder="blurred"
                     layout="constrained"
                     className="mr-3"
+                    alt=""
                   />
                   <p className="text-sm">avv.albertocassani@gmail.com</p>
                 </div>
@@ -108,6 +113,7 @@ const LoStudio = () => {
                     placeholder="blurred"
                     layout="constrained"
                     className="mr-3"
+                    alt=""
                   />
                   <p className="text-sm">
                     Viale Repubblica 28, 20037 - PADERNO
@@ -120,6 +126,7 @@ const LoStudio = () => {
                     placeholder="blurred"
                     layout="constrained"
                     className="mr-3"
+                    alt=""
                   />
                   <p className="text-sm">02.99043745</p>
                 </div>
@@ -130,6 +137,7 @@ const LoStudio = () => {
                     placeholder="blurred"
                     layout="constrained"
                     className="mr-3"
+                    alt=""
                   />
                   <p className="text-sm">avv.albertocassani@gmail.com</p>
                 </div>

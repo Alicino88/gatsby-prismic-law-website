@@ -1,5 +1,5 @@
-import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
+import * as React from "react";
+import { StaticImage } from "gatsby-plugin-image";
 
 const Footer = () => {
   return (
@@ -11,6 +11,7 @@ const Footer = () => {
           placeholder="blurred"
           layout="constrained"
           className="mb-8"
+          alt="Studio legale Cassani e Marchetti"
         />
         <div className="lg:mr-64 lg:pr-24">
           <h2 className="text-2xl">Contatti e recapiti</h2>
@@ -27,6 +28,7 @@ const Footer = () => {
                   placeholder="blurred"
                   layout="constrained"
                   className="mr-3"
+                  alt=""
                 />
                 <p className="text-sm">Viale Monte Rosa 16, 20149 - MILANO</p>
               </div>
@@ -37,6 +39,7 @@ const Footer = () => {
                   placeholder="blurred"
                   layout="constrained"
                   className="mr-3"
+                  alt=""
                 />
                 <p className="text-sm">02.99043745</p>
               </div>
@@ -47,6 +50,7 @@ const Footer = () => {
                   placeholder="blurred"
                   layout="constrained"
                   className="mr-3"
+                  alt=""
                 />
                 <p className="text-sm">avv.albertocassani@gmail.com</p>
               </div>
@@ -63,6 +67,7 @@ const Footer = () => {
                   placeholder="blurred"
                   layout="constrained"
                   className="mr-3"
+                  alt=""
                 />
                 <p className="text-sm">Viale Repubblica 28, 20037 - PADERNO</p>
               </div>
@@ -73,6 +78,7 @@ const Footer = () => {
                   placeholder="blurred"
                   layout="constrained"
                   className="mr-3"
+                  alt=""
                 />
                 <p className="text-sm">02.99043745</p>
               </div>
@@ -83,6 +89,7 @@ const Footer = () => {
                   placeholder="blurred"
                   layout="constrained"
                   className="mr-3"
+                  alt=""
                 />
                 <p className="text-sm">avv.albertocassani@gmail.com</p>
               </div>
@@ -91,7 +98,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

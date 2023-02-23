@@ -13,6 +13,7 @@ const TheLawyers = () => {
             }
             immagine_avvocato {
               gatsbyImageData(placeholder: BLURRED, layout: CONSTRAINED)
+              alt
             }
             nome_avvocato {
               text
@@ -44,6 +45,7 @@ const TheLawyers = () => {
                     <GatsbyImage
                       image={pathToImage}
                       className="rounded-md h-full w-full"
+                      alt={avvocato.data.nome_avvocato.text}
                     />
                   </div>
                   <div className="mt-10 md:mt-0 md:px-10 md:w-2/3">

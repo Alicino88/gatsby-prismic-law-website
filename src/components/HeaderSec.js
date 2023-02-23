@@ -1,13 +1,13 @@
-import * as React from "react"
-import { GatsbyImage } from "gatsby-plugin-image"
+import * as React from "react";
+import { GatsbyImage } from "gatsby-plugin-image";
 
-const HeaderSec = ({ descrizione, titolo, image }) => {
+const HeaderSec = ({ descrizione, titolo, image, alt }) => {
   return (
     <header
       className="relative w-screen overflow-hidden bg-blue-transparent mt-32"
       style={{ height: "40vh", minHeight: "400px" }}
     >
-      <GatsbyImage image={image} className="w-full h-full" />
+      <GatsbyImage image={image} className="w-full h-full" alt={alt} />
       <div className="flex absolute top-0 right-0 bottom-0 left-0 bg-blue-transparent justify-start items-center">
         <div className="text-white w-full max-w-screen-xl mx-auto px-3 ">
           <p className="uppercase mb-4">{descrizione}</p>
@@ -16,7 +16,7 @@ const HeaderSec = ({ descrizione, titolo, image }) => {
         </div>
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default HeaderSec
+export default HeaderSec;

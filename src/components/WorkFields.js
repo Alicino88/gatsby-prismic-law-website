@@ -51,7 +51,7 @@ const WorkFields = () => {
               } `}
             >
               <div className="bg-blue-light rounded-t-md py-10">
-                <GatsbyImage image={pathToImage} />
+                <GatsbyImage image={pathToImage} alt="" />
               </div>
               <div className="p-5">
                 <h2 className="text-blue-dark text-lg mb-3">

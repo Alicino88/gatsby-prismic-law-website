@@ -24,6 +24,7 @@ const LoStudio = () => {
         descrizione="Professionisti del settore legale"
         titolo="Il team"
         image={pic}
+        alt=""
       />
       <TheLawyers />
     </Layout>

@@ -1,5 +1,5 @@
-import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
+import * as React from "react";
+import { StaticImage } from "gatsby-plugin-image";
 
 const Header = ({ siteTitle }) => (
   <header
@@ -12,7 +12,7 @@ const Header = ({ siteTitle }) => (
       layout="constrained"
       className="w-full h-full"
       imgClassName="animate-zoomin"
-      alt="Galleria Milano"
+      alt=""
     />
     <div className="bg-blue-transparent text-center absolute top-0 right-0 bottom-0 left-0">
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-11/12 md:w-3/4 lg:w-3/5 max-w-screen-md">
@@ -26,6 +26,6 @@ const Header = ({ siteTitle }) => (
       </div>
     </div>
   </header>
-)
+);
 
-export default Header
+export default Header;

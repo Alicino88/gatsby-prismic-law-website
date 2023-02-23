@@ -29,6 +29,7 @@ const ContactsNav = () => {
             placeholder="blurred"
             layout="constrained"
             width={20}
+            alt=""
           />
           <p className="text-white text-sm ml-1">0223-99043123</p>
         </div>
@@ -38,6 +39,7 @@ const ContactsNav = () => {
             placeholder="blurred"
             layout="constrained"
             width={20}
+            alt=""
           />
           <p className="text-white text-sm ml-1">avv.giorgiorossi@gmail.com</p>
         </div>

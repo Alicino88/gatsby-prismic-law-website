@@ -54,7 +54,7 @@ const SellingPoints = () => {
               } 
     `}
             >
-              <GatsbyImage image={pathToImage} />
+              <GatsbyImage image={pathToImage} alt="" />
             </div>
             <h2 className="text-blue-dark text-lg mb-3">
               {sellingPoint.data.title.text}
