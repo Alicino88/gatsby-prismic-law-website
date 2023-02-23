@@ -19,25 +19,35 @@ const MenuNav = ({ toggle, isOpen }) => {
         </Link>
 
         <ul className="font-semibold text-sm uppercase hidden md:inline-flex">
-          <Link to="/#lo-studio" className="mr-8 cursor-pointer text-blue-dark">
-            <li>Lo studio</li>
-          </Link>
-
-          <Link
-            to="/#competenze"
-            className="mr-8 cursor-pointer text-blue-dark"
-          >
-            <li>Competenze</li>
-          </Link>
-          <Link
-            to="/gli-avvocati"
-            className="mr-8 cursor-pointer text-blue-dark"
-          >
-            <li>Gli avvocati</li>
-          </Link>
-          <Link to="/contatti" className="mr-8 cursor-pointer text-blue-dark">
-            <li>Contatti</li>
-          </Link>
+          <li>
+            <Link
+              to="/#lo-studio"
+              className="mr-8 cursor-pointer text-blue-dark"
+            >
+              Lo studio
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/#competenze"
+              className="mr-8 cursor-pointer text-blue-dark"
+            >
+              Competenze
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/gli-avvocati"
+              className="mr-8 cursor-pointer text-blue-dark"
+            >
+              Gli avvocati
+            </Link>
+          </li>
+          <li>
+            <Link to="/contatti" className="mr-8 cursor-pointer text-blue-dark">
+              Contatti
+            </Link>
+          </li>
         </ul>
 
         {!isOpen && (
