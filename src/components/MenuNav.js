@@ -15,6 +15,7 @@ const MenuNav = ({ toggle, isOpen }) => {
             layout="constrained"
             width={80}
             alt="Studio legale Cassani e Marchetti"
+            loading="eager"
           />
         </Link>
 
@@ -58,6 +59,7 @@ const MenuNav = ({ toggle, isOpen }) => {
               layout="constrained"
               width={30}
               alt="menu"
+              loading="eager"
             />
           </button>
         )}

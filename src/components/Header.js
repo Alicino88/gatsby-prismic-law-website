@@ -13,6 +13,7 @@ const Header = ({ siteTitle }) => (
       className="w-full h-full"
       imgClassName="animate-zoomin"
       alt=""
+      loading="eager"
     />
     <div className="bg-blue-transparent text-center absolute top-0 right-0 bottom-0 left-0">
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-11/12 md:w-3/4 lg:w-3/5 max-w-screen-md">
