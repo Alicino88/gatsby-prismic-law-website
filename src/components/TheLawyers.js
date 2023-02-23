@@ -39,7 +39,7 @@ const TheLawyers = () => {
           {avvocati.map((avvocato) => {
             const pathToImage = getImage(avvocato.data.immagine_avvocato);
             return (
-              <div>
+              <div key={avvocato.data.nome_avvocato.text}>
                 <div className="md:flex lg:px-10 lg:pl-10">
                   <div className="w-9/12 md:w-1/3">
                     <GatsbyImage

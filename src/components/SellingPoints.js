@@ -47,7 +47,10 @@ const SellingPoints = () => {
       {sellingPoints.map((sellingPoint) => {
         const pathToImage = getImage(sellingPoint.data.icon);
         return (
-          <div className="mx-10 mb-10 md:w-2/3 md:mx-auto lg:w-1/4">
+          <div
+            className="mx-10 mb-10 md:w-2/3 md:mx-auto lg:w-1/4"
+            key={sellingPoint.data.title.text}
+          >
             <div
               className={`opacity-0 -translate-y-full transition-all duration-1000 ease-out ${
                 inView ? "translate-y-0 z-20 opacity-100" : ""
