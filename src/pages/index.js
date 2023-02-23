@@ -5,7 +5,7 @@ import LoStudio from "../components/LoStudio.js";
 import SellingPoints from "../components/SellingPoints.js";
 import Banner from "../components/Banner.js";
 import WorkFields from "../components/WorkFields.js";
-import SEO from "../components/Seo.js";
+import SEO from "../components/seo.js";
 
 const IndexPage = () => (
   <>

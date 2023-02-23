@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 import Layout from "../components/layout.js";
 import HeaderSec from "../components/HeaderSec.js";
-import SEO from "../components/Seo.js";
+import SEO from "../components/seo.js";
 
 const LoStudio = () => {
   const data = useStaticQuery(graphql`
