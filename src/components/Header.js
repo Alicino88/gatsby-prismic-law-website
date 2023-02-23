@@ -7,7 +7,7 @@ const Header = ({ siteTitle }) => (
     style={{ height: "60vh", minHeight: "500px" }}
   >
     <StaticImage
-      src="../images/milano_galleria.jpg"
+      src="../images/milano_galleria1.jpg"
       placeholder="blurred"
       layout="constrained"
       className="w-full h-full"
