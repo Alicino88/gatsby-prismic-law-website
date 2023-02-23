@@ -52,7 +52,7 @@ const LoStudio = () => {
             className="h-full w-full"
             alt=""
           />
-          <div class="absolute inset-0 bg-white/60 bg-transparent bg-gradient-to-r from-white/95 to-white/25"></div>
+          <div className="absolute inset-0 bg-white/60 bg-transparent bg-gradient-to-r from-white/95 to-white/25"></div>
           <div className="text-blue-dark py-16 px-3 absolute inset-0 max-w-screen-xl mx-auto">
             <div className="md:w-3/4">
               <h2 className="text-xl lg:text-2xl">Studio di Milano</h2>
