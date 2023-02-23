@@ -23,7 +23,7 @@ const TheLawyers = () => {
     }
   `);
   const avvocati = data.allPrismicGliAvvocati.nodes;
-  console.log(avvocati);
+
   return (
     <section className="max-w-screen-xl mx-auto">
       <div className="lg:flex py-16">

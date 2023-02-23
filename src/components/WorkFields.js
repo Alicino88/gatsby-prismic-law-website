@@ -30,7 +30,6 @@ const WorkFields = () => {
     }
   `);
   const workFields = data.allPrismicAreeDiCompetenza.nodes;
-  console.log(workFields);
 
   const { ref, inView } = useInView({
     triggerOnce: true,
