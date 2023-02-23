@@ -49,6 +49,7 @@ const WorkFields = () => {
               className={`rounded-md shadow-md w-64 md:w-auto mx-auto mb-8 md:mb-0 opacity-0 -translate-y-1/2 transition-all duration-1000 ease-out ${
                 inView ? "translate-y-0 opacity-100" : ""
               } `}
+              key={field.data.titolo.text}
             >
               <div className="bg-blue-light rounded-t-md py-10">
                 <GatsbyImage image={pathToImage} alt="" />
