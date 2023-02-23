@@ -36,7 +36,7 @@ const WorkFields = () => {
     rootMargin: "-100px 0px",
   });
   return (
-    <section className="text-center py-16" id="competenze">
+    <section className="text-center py-16">
       <Title title="Aree di competenza" />
       <div
         className="mx-auto md:grid md:grid-cols-2 gap-6 lg:grid-cols-3 md:max-w-lg lg:max-w-4xl py-16"
