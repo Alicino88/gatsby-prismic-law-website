@@ -19,7 +19,7 @@ const Footer = () => {
           <div className="md:flex">
             <div className="md:mr-5 lg:mr-12">
               <h3 className="mb-5 text-sm">
-                Studio di <h3 className="inline uppercase">Milano</h3>
+                Studio di <p className="inline uppercase">Milano</p>
               </h3>
               <div className="flex py-3 border-solid border-greyTransparent border-b">
                 <StaticImage
@@ -58,7 +58,7 @@ const Footer = () => {
 
             <div className="">
               <h3 className="mb-5 mt-10 text-sm md:mt-0">
-                Studio di <h3 className="inline uppercase">Paderno dugnano</h3>
+                Studio di <p className="inline uppercase">Paderno dugnano</p>
               </h3>
               <div className="flex py-3 border-solid border-greyTransparent border-b">
                 <StaticImage
