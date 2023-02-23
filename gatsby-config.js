@@ -19,6 +19,8 @@ module.exports = {
   plugins: [
     `gatsby-plugin-image`,
     "gatsby-plugin-postcss",
+    "gatsby-plugin-webpack-bundle-analyser-v2",
+    `gatsby-plugin-perf-budgets`,
     {
       resolve: "gatsby-source-prismic",
       options: {
@@ -43,7 +45,7 @@ module.exports = {
       },
     },
 
-    /*to use google fonts*/
+    /*to use google fonts
     {
       resolve: `gatsby-omni-font-loader`,
       options: {
@@ -64,6 +66,6 @@ module.exports = {
           },
         ],
       },
-    },
+    },*/
   ],
 };
