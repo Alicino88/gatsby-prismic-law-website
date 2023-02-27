@@ -30,7 +30,7 @@ const Footer = () => {
                   className="mr-3"
                   alt=""
                 />
-                <p className="text-sm">Viale Monte Rosa 16, 20149 - MILANO</p>
+                <p className="text-sm">Via Telesio 2, 20121 - MILANO</p>
               </div>
               <div className="flex py-3 border-solid border-greyTransparent border-b">
                 <StaticImage
@@ -52,7 +52,9 @@ const Footer = () => {
                   className="mr-3"
                   alt=""
                 />
-                <p className="text-sm">avv.albertocassani@gmail.com</p>
+                <p className="text-sm">
+                  segreteria@studiolegalecassanimarchetti.it
+                </p>
               </div>
             </div>
 
@@ -91,7 +93,9 @@ const Footer = () => {
                   className="mr-3"
                   alt=""
                 />
-                <p className="text-sm">avv.albertocassani@gmail.com</p>
+                <p className="text-sm">
+                  segreteria@studiolegalecassanimarchetti.it
+                </p>
               </div>
             </div>
           </div>
