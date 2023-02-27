@@ -31,8 +31,8 @@ const TheLawyers = () => {
         <div className="px-3 md:pr-32 lg:pr-0 lg:w-1/3">
           <h2 className="text-3xl md:text-4xl text-blue-dark">La storia</h2>
           <p className="text-grey mt-5">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Operativi dal 1986, poniamo al primo posto l'interesse del cliente
+            operando con professionalità e compotenza.
           </p>
         </div>
         <div className="px-3 mt-16 lg:mt-0 lg:w-2/3">
