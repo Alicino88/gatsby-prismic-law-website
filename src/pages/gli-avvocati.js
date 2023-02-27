@@ -20,12 +20,7 @@ const LoStudio = () => {
 
   return (
     <Layout>
-      <HeaderSec
-        descrizione="Professionisti del settore legale"
-        titolo="Il team"
-        image={pic}
-        alt=""
-      />
+      <HeaderSec descrizione="" titolo="Gli Avvocati" image={pic} alt="" />
       <TheLawyers />
     </Layout>
   );
