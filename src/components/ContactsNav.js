@@ -32,7 +32,7 @@ const ContactsNav = () => {
             alt=""
             loading="eager"
           />
-          <p className="text-white text-sm ml-1">0223-99043123</p>
+          <p className="text-white text-sm ml-1">02.99043745</p>
         </div>
         <div div className="flex justify-center sm:justify-start sm:ml-10">
           <StaticImage
