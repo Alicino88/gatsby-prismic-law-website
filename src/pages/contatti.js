@@ -35,9 +35,9 @@ const LoStudio = () => {
               A Milano e Paderno Dugnano
             </h2>
             <p className="text-grey">
-              Qui per esempio potresti scrivere il normale iter di contatto, per
-              esempio prima telefonata e poi appuntamento, e/o se ricevete solo
-              su appuntamento.
+              Si riceve su appuntamento da concordarsi telefonicamente o via
+              mail; l’appuntamento può svolgersi in presenza o tramite le
+              principali piattaforme di videoconferenza.
             </p>
           </div>
         </div>
@@ -71,7 +71,7 @@ const LoStudio = () => {
                     className="mr-3"
                     alt=""
                   />
-                  <p className="text-sm">Viale Monte Rosa 16, 20149 - MILANO</p>
+                  <p className="text-sm">Via Telesio 2, 20121 - MILANO</p>
                 </div>
                 <div className="flex py-2">
                   <StaticImage
@@ -93,7 +93,9 @@ const LoStudio = () => {
                     className="mr-3"
                     alt=""
                   />
-                  <p className="text-sm">avv.albertocassani@gmail.com</p>
+                  <p className="text-sm">
+                    segreteria@studiolegalecassanimarchetti.it
+                  </p>
                 </div>
               </div>
             </div>
@@ -139,7 +141,9 @@ const LoStudio = () => {
                     className="mr-3"
                     alt=""
                   />
-                  <p className="text-sm">avv.albertocassani@gmail.com</p>
+                  <p className="text-sm">
+                    segreteria@studiolegalecassanimarchetti.it
+                  </p>
                 </div>
               </div>
             </div>
