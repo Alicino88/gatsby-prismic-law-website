@@ -11,9 +11,9 @@ const Banner = () => {
       className="relative bg-[url('../images/sky_duomo.jpg')] bg-cover bg-center bg-no-repeat"
       ref={ref}
     >
-      <div className="absolute inset-0 bg-white/60 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/95 sm:to-white/25"></div>
+      <div className="absolute inset-0 bg-white/60 bg-transparent bg-gradient-to-r from-white/95 sm:to-white/25"></div>
       <div
-        className={`text-center relative mx-auto max-w-screen-xl px-4 sm:px-20 py-32 lg:text-left border-solid border-gold border-l-8 -translate-x-full transition-all duration-1000 ease-out ${
+        className={`relative mx-auto max-w-screen-xl px-4 sm:px-20 py-24 text-left border-solid border-gold border-l-8 -translate-x-full transition-all duration-1000 ease-out ${
           inView ? "translate-x-0" : ""
         } `}
       >
@@ -21,10 +21,23 @@ const Banner = () => {
           La filosofia dello studio
         </h1>
 
-        <p className="text-blue-dark font-semibold mt-4 text-base sm:leading-relaxed lg:w-1/2">
-          Ciascun cliente ha esigenze diverse. Il nostro compito è di ascoltare
-          al fine di assistere con professionalità e competenza.
-        </p>
+        <h3 className="text-blue-dark  mt-4 text-base sm:leading-relaxed lg:w-1/2 font-light">
+          <p className="font-bold block uppercase mb-2">
+            Interesse primario del cliente
+          </p>{" "}
+          È questo il principio su cui si fondano, da sempre, le scelte e le
+          strategie dentro e fuori i Tribunali.
+          <p className="block mt-3 mb-3">
+            Nello svolgimento del nostro incarico, non si distoglie mai lo
+            sguardo da quello che si considera il risultato ottimale per il
+            cliente, che sia un privato o una società, in termini di tempi,
+            costi e vantaggi.
+          </p>
+          Il cliente, da noi, è parte integrante e consapevole delle scelte che
+          vengono adottate per la risoluzione del mandato, grazie ad una
+          costante informazione ed all’oggettività dei professionisti dello
+          studio.
+        </h3>
       </div>
     </section>
   );
