@@ -43,7 +43,9 @@ const ContactsNav = () => {
             alt=""
             loading="eager"
           />
-          <p className="text-white text-sm ml-1">avv.giorgiorossi@gmail.com</p>
+          <p className="text-white text-sm ml-1">
+            segreteria@studiolegalecassanimarchetti.it
+          </p>
         </div>
       </div>
     </div>
