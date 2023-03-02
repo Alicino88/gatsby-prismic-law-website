@@ -4,20 +4,20 @@ import { StaticImage } from "gatsby-plugin-image";
 const Footer = () => {
   return (
     <footer className="bg-blue-dark h-auto">
-      <div className="text-white py-10 px-5 md:flex md:items-center md:justify-between max-w-screen-xl mx-auto">
+      <div className="text-white py-10 px-5 lg:flex md:items-center md:justify-between max-w-screen-xl mx-auto">
         <StaticImage
           src="../images/logo_white.png"
-          width={150}
+          width={130}
           placeholder="blurred"
           layout="constrained"
           className="mb-8"
           alt="Studio legale Cassani e Marchetti"
         />
-        <div className="lg:mr-64 lg:pr-24">
+        <div className="lg:mr-64 lg:pr-10">
           <h2 className="text-2xl">Contatti e recapiti</h2>
           <span className="block w-20 mt-4 mb-8 border-solid border-gold border-b-4"></span>
           <div className="md:flex">
-            <div className="md:mr-5 lg:mr-12">
+            <div className="md:mr-10 lg:mr-12">
               <h3 className="mb-5 text-sm">
                 Studio di <p className="inline uppercase">Milano</p>
               </h3>
@@ -62,7 +62,7 @@ const Footer = () => {
               <h3 className="mb-5 mt-10 text-sm md:mt-0">
                 Studio di <p className="inline uppercase">Paderno dugnano</p>
               </h3>
-              <div className="flex py-3 border-solid border-greyTransparent border-b">
+              <div className="flex py-3 border-solid border-greyTransparent border-b items-center">
                 <StaticImage
                   src="../images/location.png"
                   width={25}
@@ -71,7 +71,9 @@ const Footer = () => {
                   className="mr-3"
                   alt=""
                 />
-                <p className="text-sm">Viale Repubblica 28, 20037 - PADERNO</p>
+                <p className="text-sm">
+                  Viale Repubblica 28, 20037 - PADERNO DUGNANO
+                </p>
               </div>
               <div className="flex py-3 border-solid border-greyTransparent border-b">
                 <StaticImage
