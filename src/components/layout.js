@@ -21,16 +21,12 @@ const Layout = ({ children }) => {
       </div>
       <main>{children}</main>
       <Footer />
-      <div
-        style={{
-          marginTop: `var(--space-5)`,
-          fontSize: `var(--font-sm)`,
-        }}
-        className="max-w-screen-xl mx-auto py-4 px-5 bg-blue-light"
-      >
-        © Alice Moretti - {new Date().getFullYear()} | Built with
-        {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a> | Icons by Flaticon
+      <div className="bg-blue-light text-xs sm:text-sm">
+        <div className="max-w-screen-xl mx-auto py-4 px-5">
+          © Alice Moretti - {new Date().getFullYear()} | Built with
+          {` `}
+          <a href="https://www.gatsbyjs.com">Gatsby</a> | Icons by Flaticon
+        </div>
       </div>
     </>
   );
