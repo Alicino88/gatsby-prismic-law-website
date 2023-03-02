@@ -26,11 +26,11 @@ const Layout = ({ children }) => {
           marginTop: `var(--space-5)`,
           fontSize: `var(--font-sm)`,
         }}
-        className="max-w-screen-xl mx-auto py-4 px-5"
+        className="max-w-screen-xl mx-auto py-4 px-5 bg-blue-light"
       >
         © Alice Moretti - {new Date().getFullYear()} | Built with
         {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
+        <a href="https://www.gatsbyjs.com">Gatsby</a> | Icons by Flaticon
       </div>
     </>
   );
