@@ -57,10 +57,7 @@ const LoStudio = () => {
             <div className="md:w-3/4">
               <h2 className="text-xl lg:text-2xl">Studio di Milano</h2>
               <span className="block w-20 mt-2 mb-5 border-solid border-gold border-b-4"></span>
-              <p>
-                Il nostro studio e facilmente raggiungibile a pochi minuti a
-                piedi dalla fermata di Amendola, sulla linea rossa.
-              </p>
+
               <div className="mt-6">
                 <div className="flex py-2">
                   <StaticImage
@@ -103,10 +100,7 @@ const LoStudio = () => {
             <div className="md:w-3/4">
               <h2 className="text-xl lg:text-2xl">Studio di Paderno Dugnano</h2>
               <span className="block w-20 mt-2 mb-5 border-solid border-gold border-b-4"></span>
-              <p>
-                Il nostro studio e facilmente raggiungibile a pochi minuti a
-                piedi dalla fermata di Amendola, sulla linea rossa.
-              </p>
+
               <div className="mt-6">
                 <div className="flex py-2">
                   <StaticImage
