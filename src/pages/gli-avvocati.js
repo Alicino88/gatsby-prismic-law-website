@@ -8,7 +8,7 @@ import SEO from "../components/seo.js";
 const LoStudio = () => {
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "team.jpg" }) {
+      file(relativePath: { eq: "cassani-marchetti-giustizia1.jpg" }) {
         id
         childImageSharp {
           gatsbyImageData(placeholder: BLURRED)

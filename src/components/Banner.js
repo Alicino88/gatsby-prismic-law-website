@@ -8,7 +8,7 @@ const Banner = () => {
   });
   return (
     <section
-      className="relative bg-[url('../images/sky_duomo.jpg')] bg-cover bg-center bg-no-repeat"
+      className="relative bg-[url('../images/cassani-e-marchetti-filosofia.jpg')] bg-cover bg-center bg-no-repeat"
       ref={ref}
     >
       <div className="absolute inset-0 bg-white/60 bg-transparent bg-gradient-to-r from-white/95 sm:to-white/25"></div>
