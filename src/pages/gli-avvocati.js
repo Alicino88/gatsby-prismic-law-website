@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from "gatsby";
 import Layout from "../components/layout.js";
 import HeaderSec from "../components/HeaderSec.js";
 import TheLawyers from "../components/TheLawyers.js";
-import SEO from "../components/seo.js";
+import Seo from "../components/seo.js";
 
 const LoStudio = () => {
   const data = useStaticQuery(graphql`
@@ -29,5 +29,8 @@ const LoStudio = () => {
 export default LoStudio;
 
 export const Head = () => (
-  <SEO title="Gli avvocati | Studio legale Cassani & Marchetti" />
+  <Seo
+    title="Gli avvocati | Studio legale Cassani & Marchetti"
+    description="Gli avvocati dello studio legale Cassani & Marchetti uniscono competenze tecniche a una grande passione per il lavoro e l’approfondimento giuridico."
+  />
 );

@@ -5,7 +5,7 @@ import LoStudio from "../components/LoStudio.js";
 import SellingPoints from "../components/SellingPoints.js";
 import Banner from "../components/Banner.js";
 import WorkFields from "../components/WorkFields.js";
-import SEO from "../components/seo.js";
+import Seo from "../components/seo.js";
 
 const IndexPage = () => (
   <>
@@ -29,4 +29,4 @@ const IndexPage = () => (
 
 export default IndexPage;
 
-export const Head = () => <SEO />;
+export const Head = () => <Seo />;

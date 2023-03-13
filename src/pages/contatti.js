@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 import Layout from "../components/layout.js";
 import HeaderSec from "../components/HeaderSec.js";
-import SEO from "../components/seo.js";
+import Seo from "../components/seo.js";
 
 const LoStudio = () => {
   const data = useStaticQuery(graphql`
@@ -151,5 +151,8 @@ const LoStudio = () => {
 export default LoStudio;
 
 export const Head = () => (
-  <SEO title="Contatti | Studio legale Cassani & Marchetti" />
+  <Seo
+    title="Contatti | Studio legale Cassani & Marchetti"
+    description="Lo studio legale Cassani & Marchetti opera a Milano e Paderno Dugnano offrendo anche la possibilità di svolgere gli appuntamenti in via telematica."
+  />
 );
