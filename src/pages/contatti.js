@@ -112,7 +112,7 @@ const LoStudio = () => {
                     alt=""
                   />
                   <p className="text-sm">
-                    Viale Repubblica 28, 20037 - PADERNO
+                    Viale Repubblica 28, 20037 - PADERNO DUGNANO
                   </p>
                 </div>
                 <div className="flex py-2">
