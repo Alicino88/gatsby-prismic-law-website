@@ -25,3 +25,52 @@
   box-sizing: border-box;
   margin: 0;
 }
+
+#privacy h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+#privacy h1 {
+  font-size: 18px;
+}
+
+#privacy h2 {
+  font-size: 18px;
+  margin-top: 25px;
+}
+#privacy h3 {
+  font-size: 16px;
+  margin-top: 25px;
+}
+
+#privacy h4 {
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+#privacy p {
+  margin-bottom: 15px;
+}
+
+#privacy ul li {
+  list-style-type: square;
+  margin-top: 15px;
+}
+
+@media only screen and (min-width: 800px) {
+  #privacy h1 {
+    font-size: 28px;
+  }
+  #privacy h2 {
+    font-size: 24px;
+  }
+
+  #privacy h3 {
+    font-size: 20px;
+  }
+}
