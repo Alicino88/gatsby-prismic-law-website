@@ -104,10 +104,16 @@ module.exports = {
             textColor: "#000000",
             usesThirdParties: false,
             content:
-              "Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per finalità tecniche e, con il tuo consenso, anche per le finalità di misurazione del traffico come specificato nella cookie policy.\n\nPuoi liberamente prestare, rifiutare o revocare il tuo consenso, in qualsiasi momento accedendo al pannello delle preferenze.",
+              "Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per finalità tecniche e, con il tuo consenso, anche per le finalità di misurazione del traffico come specificato nella cookie policy (link presente nel footer).\n\nPuoi liberamente prestare, rifiutare o revocare il tuo consenso, in qualsiasi momento accedendo al pannello delle preferenze cliccando sull'icona verde in basso a destra.",
             rejectButtonCaption: "Continua senza accettare",
           },
         },
+      },
+    },
+    {
+      resolve: `gatsby-source-iubenda-documents`,
+      options: {
+        documentIds: [`97694751`, `97694751/cookie-policy`],
       },
     },
 
