@@ -32,6 +32,7 @@ const WorkFields = () => {
     }
   `);
   const workFields = data.allPrismicAreeDiCompetenza.nodes;
+  /*the card has a width w-64 on mobile then as soon as the grid kicks in the width is auto so to respect the column and row gap.*/
 
   const { ref, inView } = useInView({
     triggerOnce: true,
@@ -47,9 +48,7 @@ const WorkFields = () => {
       >
         {workFields.map((field) => {
           const pathToImage = getImage(field.data.icona);
-          {
-            /*the card has a width w-64 on mobile then as soon as the grid kicks in the width is auto so to respect the column and row gap.*/
-          }
+
           return (
             <div
               className={`rounded-md shadow-md w-64 md:w-auto mx-auto mb-8 md:mb-0 opacity-0 -translate-y-1/2 transition-all duration-1000 ease-out ${
