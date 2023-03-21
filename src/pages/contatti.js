@@ -153,6 +153,6 @@ export default LoStudio;
 export const Head = () => (
   <Seo
     title="Contatti | Studio legale Cassani & Marchetti"
-    description="Lo studio legale Cassani & Marchetti opera a Milano e Paderno Dugnano offrendo anche la possibilità di svolgere gli appuntamenti in via telematica."
+    description="Lo studio legale Cassani & Marchetti ha sedi a Milano e Paderno Dugnano, offrendo anche la possibilità di svolgere appuntamenti in via telematica."
   />
 );
