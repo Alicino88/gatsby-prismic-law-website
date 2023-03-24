@@ -13,7 +13,12 @@ const TheLawyers = () => {
               richText
             }
             immagine_avvocato {
-              gatsbyImageData(placeholder: BLURRED, layout: CONSTRAINED)
+              gatsbyImageData(
+                placeholder: BLURRED
+                layout: CONSTRAINED
+                height: 400
+                width: 300
+              )
               alt
             }
             nome_avvocato {
