@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
+import logo from "../images/logo_blue.png";
 
 const MenuNav = ({ toggle, isOpen }) => {
   return (
@@ -9,13 +10,7 @@ const MenuNav = ({ toggle, isOpen }) => {
     >
       <div className="py-2 px-3 flex items-center justify-between max-w-screen-xl mx-auto">
         <Link to="/" className="cursor-pointer">
-          <StaticImage
-            src="../images/logo_blue.png"
-            placeholder="blurred"
-            layout="constrained"
-            width={80}
-            alt="Studio legale Cassani e Marchetti"
-          />
+          <img src={logo} width="90" alt="Studio legale Cassani e Marchetti" />
         </Link>
 
         <ul className="font-semibold text-sm uppercase hidden md:inline-flex">
