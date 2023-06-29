@@ -7,13 +7,14 @@ const MenuNav = ({ toggle, isOpen }) => {
     <nav
       className={`bg-white z-40 relative ${!isOpen ? "drop-shadow-md" : ""}`}
     >
-      <div className="py-1 px-3 flex items-center justify-between max-w-screen-xl mx-auto">
+      <div className="py-2 px-3 flex items-center justify-between max-w-screen-xl mx-auto">
         <Link to="/" className="cursor-pointer">
           <StaticImage
             src="../images/logo_blue.png"
             placeholder="blurred"
             layout="constrained"
             width={80}
+            height={80}
             alt="Studio legale Cassani e Marchetti"
             loading="eager"
           />
