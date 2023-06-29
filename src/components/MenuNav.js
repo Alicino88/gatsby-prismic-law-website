@@ -12,7 +12,7 @@ const MenuNav = ({ toggle, isOpen }) => {
           <StaticImage
             src="../images/logo_blue.png"
             placeholder="blurred"
-            layout="contrained"
+            layout="constrained"
             width={80}
             alt="Studio legale Cassani e Marchetti"
           />
