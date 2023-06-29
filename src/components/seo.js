@@ -30,12 +30,15 @@ function SEO({ description, title, children }) {
   const pic = data.site.siteMetadata.image;
   const url = data.site.siteMetadata.siteUrl;
 
+  console.log(pic);
+
   return (
     <>
       <title>{metaTitle}</title>
       <meta name="description" content={metaDescription} />
       <meta property="og:description" content={metaDescription} />
       <meta property="og:title" content={metaTitle} />
+      <meta property="og:image" content={pic} />
       <meta property="og:url" content={url} />
       <meta property="og:type" content="website" />
       <meta name="image" content={pic} />
