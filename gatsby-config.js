@@ -13,7 +13,7 @@ module.exports = {
   siteMetadata: {
     title: `Avvocato civilista Milano | Studio legale Cassani & Marchetti`,
     description: `Esperto in diritto civile, lo studio legale Cassani & Marchetti offre un servizio altamente qualificato con sedi a Milano e Paderno Dugnano.`,
-    image: `/logo-white-bg.png`,
+    image: `/logo_bg.jpg`,
     siteUrl: `https://studiolegalecassanimarchetti.it/`,
   },
   plugins: [

@@ -30,8 +30,6 @@ function SEO({ description, title, children }) {
   const pic = data.site.siteMetadata.image;
   const url = data.site.siteMetadata.siteUrl;
 
-  console.log(pic);
-
   return (
     <>
       <title>{metaTitle}</title>
