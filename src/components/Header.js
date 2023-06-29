@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image";
 const Header = ({ siteTitle }) => (
   <header
     className="w-screen relative overflow-hidden mt-32"
-    style={{ height: "60vh", minHeight: "500px" }}
+    style={{ height: "70vh", minHeight: "600px" }}
   >
     <StaticImage
       src="../images/milano_galleria3.jpg"
