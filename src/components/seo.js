@@ -40,6 +40,11 @@ function SEO({ description, title, children }) {
       <meta property="og:url" content={url} />
       <meta property="og:type" content="website" />
       <meta name="image" content={pic} />
+      {/*to verify access for google search console*/}
+      <meta
+        name="google-site-verification"
+        content="tP8aR1cMNy924F6nf-2YNnVSqyl_3kmcUoHv_BfGMyk"
+      />
     </>
   );
 }
